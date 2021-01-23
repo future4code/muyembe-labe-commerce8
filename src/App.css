@@ -56,7 +56,7 @@
 .produto {
   border: 1px solid;
   padding: 5px;
-  grid-gap: 5px;
+  grid-gap: 7px;
   display:grid;
 }
 
@@ -64,4 +64,11 @@
   width:150px;
   height: 150px;
   border-radius: 65px;
+}
+
+.botao-add-carrinho{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  justify-content: center;
 }

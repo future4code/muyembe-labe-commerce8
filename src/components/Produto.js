@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import BotaoAddCarrinho from './BotaoAdicionarCarrinho'
 
 class Produto extends React.Component {
 
@@ -26,9 +27,7 @@ class Produto extends React.Component {
                     <div>
                         <span> <b>Valor:</b> R$ {prdt.valor}</span>
                     </div>
-                    <div>
-                        
-                    </div>
+                    <BotaoAddCarrinho />
                 </div>
             );
         })
