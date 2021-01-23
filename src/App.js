@@ -6,7 +6,7 @@ import Carrinho from "./components/Carrinho";
 class App extends Component {
   render() {
     return (
-      <div className="container-grid" >
+      <div className="container-grid App" >
         <div>
           <h1> Filtro </h1>
         </div>
