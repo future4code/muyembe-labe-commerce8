@@ -1,15 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import Home from "./components/Home";
+import Produto from "./components/Produto";
+import Carrinho from "./components/Carrinho";
 
-
-function App() {
-  return (
-    <div>
-       <Home/>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="container-grid" >
+        <div>
+          <h1> Filtro </h1>
+        </div>
+        <Produto />
+        <Carrinho />
+      </div>
+    );
+  }
 }
 
 export default App;

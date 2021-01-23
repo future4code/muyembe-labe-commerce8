@@ -16,16 +16,15 @@ class Home extends React.Component{
     
   }
 
-  
   render () {
-    
-    
+
     return (
      //<div><h1>bananinha</h1></div>
         <Produto/>
         
     );
  }
+ 
 }
 
 export default Home;

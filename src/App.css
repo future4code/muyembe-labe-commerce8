@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .App-logo {
@@ -37,6 +39,15 @@
   }
 }
 
-.produto{
+.container-grid{
   display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.container-grid-produto{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  grid-gap: 10px;
 }
