@@ -33,4 +33,4 @@ function listaProduto(props) {
     );
 }
 
-export default Filtro;
+export default FiltroNomeProduto;
