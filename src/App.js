@@ -4,7 +4,6 @@ import Produto from "./components/Produto";
 import Carrinho from "./components/Carrinho";
 import Filtro from './components/Filtro'
 
-
 class App extends Component {
 
   state = {
@@ -35,6 +34,7 @@ class App extends Component {
           produtos={this.listaProduto}
         />
         <Carrinho qtdeCarrinho={this.state.quantidade} />
+
       </div>
     );
   }
