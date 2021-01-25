@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 
 class Carrinho extends React.Component {
-
     render() {
-        return <div><h1>Carrinho</h1></div>;
+        return( 
+            <div className="grid-container-carrinho">
+                <h1>Carrinho</h1>
+                <label>{this.props.qtdeCarrinho}</label>
+            </div>
+        );
     }
 }
 
