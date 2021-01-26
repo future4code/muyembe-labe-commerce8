@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  padding: 10px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +38,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.container-grid-produto{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+.produto {
+  border: 1px solid;
+  padding: 5px;
+  grid-gap: 7px;
+  display:grid;
+}
+
+.imagem {
+  width:150px;
+  height: 150px;
+  /*border-radius: 65px;*/
+}
+
+.botao-add-carrinho{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.grid-container-filtro {
+  display: grid;
+  border: 1px solid;
+  grid-gap:5px;
+}
+
+.grid-container-carrinho {
+  display: grid;
+  border: 1px solid;
+  padding: 5px;
+
 }
